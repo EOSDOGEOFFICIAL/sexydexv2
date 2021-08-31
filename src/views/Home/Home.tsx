@@ -13,7 +13,7 @@ import { Heading, Text, BaseLayout } from '../../components/Pancakeswap/uikit/sr
 
 const Hero = styled.div`
   align-items: center;
-  background-image: url('/images/home/donel.png'), url('/images/home/donel.png');
+  background-image: url('/images/home/left.png'), url('/images/home/right.png');
   background-position: left top, right top;
   background-size: 80px 100px;
   background-repeat: no-repeat;
