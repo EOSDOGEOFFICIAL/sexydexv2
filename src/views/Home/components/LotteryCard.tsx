@@ -18,7 +18,7 @@ import LotteryJackpot from './LotteryJackpot'
 import { Heading, Card, CardBody, Button, useModal } from '../../../components/Pancakeswap/uikit/src'
 
 const StyledLotteryCard = styled(Card)`
-  background-image: url('https://babylucyofficial.com/lbottom.jpg');
+  background-image: url('https://babylucyofficial.com/lll.png');
   background-repeat: no-repeat;
   background-position: top right;
   min-height: 376px;
