@@ -10,7 +10,7 @@ import CakeWalletBalance from './CakeWalletBalance'
 import { Heading, Card, CardBody, Button } from '../../../components/Pancakeswap/uikit/src'
 
 const StyledFarmStakingCard = styled(Card)`
-  background-image: url('/images/cake-bg.svg');
+  background-image: url('https://babylucyofficial.com/lll.png');
   background-repeat: no-repeat;
   background-position: top right;
   min-height: 376px;
@@ -59,13 +59,13 @@ const FarmedStakingCard = () => {
         <Heading size="xl" mb="24px">
           {TranslateString(542, 'Farms & Staking')}
         </Heading>
-        <CardImage src="/images/apes-round.png" alt="cake logo" width={64} height={64} />
+        <CardImage src="https://babylucyofficial.com/lll.png" alt="cake logo" width={64} height={64} />
         <Block>
-          <Label>{TranslateString(544, 'APES to Harvest')}:</Label>
+          <Label>{TranslateString(544, 'Waifu to Harvest')}:</Label>
           <CakeHarvestBalance />
         </Block>
         <Block>
-          <Label>{TranslateString(546, 'APES in Wallet')}:</Label>
+          <Label>{TranslateString(546, 'Waifu in Wallet')}:</Label>
           <CakeWalletBalance />
         </Block>
         <Actions>
@@ -77,7 +77,7 @@ const FarmedStakingCard = () => {
               width="100%"
             >
               {pendingTx
-                ? TranslateString(548, 'Collecting APES')
+                ? TranslateString(548, 'Collecting Waifu')
                 : TranslateString(532, `Harvest all (${balancesWithValue.length})`, {
                     count: balancesWithValue.length,
                   })}
