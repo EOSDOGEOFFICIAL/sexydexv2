@@ -18,7 +18,7 @@ import LotteryJackpot from './LotteryJackpot'
 import { Heading, Card, CardBody, Button, useModal } from '../../../components/Pancakeswap/uikit/src'
 
 const StyledLotteryCard = styled(Card)`
-  background-image: url('https://babylucyofficial.com/lll.png');
+  background-image: url('https://babylucyofficial.com/lbottom.jpg');
   background-repeat: no-repeat;
   background-position: top right;
   min-height: 376px;
@@ -97,7 +97,7 @@ const LotteryCard = () => {
         <Heading size="xl" mb="24px">
           {TranslateString(550, 'Your Lottery Winnings')}
         </Heading>
-        <CardImage src="https://babylucyofficial.com/lbottom.jpg" alt="Waifu logo" width={64} height={64} />
+        <CardImage src="https://babylucyofficial.com/lll.png" alt="Waifu logo" width={64} height={64} />
         <Block>
           <Label>{TranslateString(552, 'Waifu to Collect')}:</Label>
           <CakeWinnings claimAmount={claimAmount} />
