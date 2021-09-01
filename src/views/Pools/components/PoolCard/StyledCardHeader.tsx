@@ -53,7 +53,7 @@ const StyledCardHeader: React.FC<{
           </Heading>
           <Text color={isFinished ? 'textDisabled' : 'textSubtle'}>{getSubHeading()}</Text>
         </Flex>
-        <Image src={`/images/pools/cake-cakevault.svg`} alt={earningTokenSymbol} width={64} height={64} />
+        <Image src={`/images/pools/${poolImageSrc}`} alt={earningTokenSymbol} width={64} height={64} />
       </Flex>
     </Wrapper>
   )
