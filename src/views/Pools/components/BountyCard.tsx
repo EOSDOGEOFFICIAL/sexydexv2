@@ -44,11 +44,11 @@ const BountyCard = () => {
       <Box mb="16px">
         {TranslateString(
           999,
-          'Whenever you successfully claim the bounty, you’re also helping out by activating the Auto APES Pool’s compounding function for everyone.',
+          'Whenever you successfully claim the bounty, you’re also helping out by activating the Auto Waifu Pool’s compounding function for everyone.',
         )}
       </Box>
       <Box style={{ fontWeight: 'bold' }}>
-        {TranslateString(999, `Auto-Compound Bounty: ${callFee / 100}% of all Auto APES pool users’ pending yield`)}
+        {TranslateString(999, `Auto-Compound Bounty: ${callFee / 100}% of all Auto Waifu pool users’ pending yield`)}
       </Box>
     </Box>
   )
@@ -73,7 +73,7 @@ const BountyCard = () => {
           <Flex flexDirection="column">
             <Flex alignItems="center" mb="12px">
               <Text fontSize="16px" bold color="textSubtle" mr="4px">
-                {TranslateString(999, 'Auto APES Bounty')}
+                {TranslateString(999, 'Auto Waifu Bounty')}
               </Text>
               <Box ref={targetRef}>
                 <HelpIcon color="textSubtle" />
