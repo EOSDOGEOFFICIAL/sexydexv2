@@ -16,8 +16,8 @@ const StyledCardHeader: React.FC<{
 }> = ({ earningTokenSymbol, stakingTokenSymbol, isFinished = false, isAutoVault = false }) => {
   const TranslateString = useI18n()
   const poolImageSrc = isAutoVault
-    ? `cake-cakevault.svg`
-    : `${earningTokenSymbol}-${stakingTokenSymbol}.svg`.toLocaleLowerCase()
+    ? `https://babylucyofficial.com/lll.png`
+    : `${earningTokenSymbol}-${stakingTokenSymbol}.png`.toLocaleLowerCase()
   const isCakePool = earningTokenSymbol === 'CAKE' && stakingTokenSymbol === 'Waifu'
   const background = isCakePool ? 'bubblegum' : 'cardHeader'
 
@@ -53,7 +53,7 @@ const StyledCardHeader: React.FC<{
           </Heading>
           <Text color={isFinished ? 'textDisabled' : 'textSubtle'}>{getSubHeading()}</Text>
         </Flex>
-        <Image src={`/images/pools/${poolImageSrc}`} alt={earningTokenSymbol} width={64} height={64} />
+        <Image src={`https://babylucyofficial.com/lll.png`} alt={earningTokenSymbol} width={64} height={64} />
       </Flex>
     </Wrapper>
   )
