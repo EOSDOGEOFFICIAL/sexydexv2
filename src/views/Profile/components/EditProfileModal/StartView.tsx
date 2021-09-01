@@ -52,7 +52,7 @@ const StartPage: React.FC<StartPageProps> = ({ goToApprove, goToChange, goToRemo
   const cost = profile.isActive ? numberCakeToUpdate : numberCakeToReactivate
 
   /**
-   * Check if the wallet has the required APES allowance to change their profile pic or reactivate
+   * Check if the wallet has the required Waifu allowance to change their profile pic or reactivate
    * If they don't, we send them to the approval screen first
    */
   useEffect(() => {
@@ -79,7 +79,7 @@ const StartPage: React.FC<StartPageProps> = ({ goToApprove, goToChange, goToRemo
       <Flex alignItems="center" style={{ height: '48px' }} justifyContent="center">
         <Text as="p" color="failure">
           {!hasMinimumCakeRequired &&
-            TranslateString(999, `${getFullDisplayBalance(minimumCakeRequired)} APES required to change profile pic`)}
+            TranslateString(999, `${getFullDisplayBalance(minimumCakeRequired)} Waifu required to change profile pic`)}
         </Text>
       </Flex>
       {profile.isActive ? (

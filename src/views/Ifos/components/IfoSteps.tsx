@@ -70,7 +70,7 @@ const IfoSteps: React.FC<Props> = ({ ifo, walletIfoData }) => {
               Activate your Profile
             </Heading>
             <Text color="textSubtle" small mb="16px">
-              You’ll need an active ApeFinance Profile to take part in an IFO!
+              You’ll need an active Wifeswap Profile to take part in an IFO!
             </Text>
             {isStepValid ? (
               <Text color="success" bold>

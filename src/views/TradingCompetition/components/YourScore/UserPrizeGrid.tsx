@@ -30,7 +30,7 @@ const UserPrizeGrid: React.FC<{ userTradingInformation?: UserTradingInformationP
     <StyledPrizeTable>
       <StyledThead>
         <tr>
-          <th>{TranslateString(999, 'APES Prizes ')}</th>
+          <th>{TranslateString(999, 'Waifu Prizes ')}</th>
           <th>{TranslateString(1092, 'Achievements')}</th>
           <th>{TranslateString(999, 'NFT')}</th>
         </tr>

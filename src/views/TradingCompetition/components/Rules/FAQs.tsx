@@ -37,7 +37,7 @@ const FAQ = () => {
             <Text fontSize="14px" color="textSubtle">
               {TranslateString(
                 999,
-                'Only trades on BNB/BUSD, APES/BNB, ETH/BNB and BTCB/BNB pairs will be included in volume calculations.',
+                'Only trades on BNB/BUSD, Waifu/BNB, ETH/BNB and BTCB/BNB pairs will be included in volume calculations.',
               )}
             </Text>
           </FoldableText>
@@ -62,14 +62,14 @@ const FAQ = () => {
               -{' '}
               {TranslateString(
                 999,
-                'Prizes to be distributed in APES and shared by all members of each respective tier as per the Prizes section above.',
+                'Prizes to be distributed in Waifu and shared by all members of each respective tier as per the Prizes section above.',
               )}
             </Text>
             <Text fontSize="14px" color="textSubtle">
               -{' '}
               {TranslateString(
                 999,
-                'APES prizes will be distributed as per the APES/BUSD price on the day of distribution. Every eligible participant will win prizes at the end of the competition.',
+                'Waifu prizes will be distributed as per the Waifu/BUSD price on the day of distribution. Every eligible participant will win prizes at the end of the competition.',
               )}
             </Text>
             <Text fontSize="14px" color="textSubtle">

@@ -29,7 +29,7 @@ const PrizesCard = () => {
         <Text color="textSubtle" fontSize="14px">
           {TranslateString(
             999,
-            'Prizes to be distributed in APES and shared by all members of a tier. APES price in USD to be determined on the day of distribution. Details below.',
+            'Prizes to be distributed in Waifu and shared by all members of a tier. Waifu price in USD to be determined on the day of distribution. Details below.',
           )}
         </Text>
       </Box>

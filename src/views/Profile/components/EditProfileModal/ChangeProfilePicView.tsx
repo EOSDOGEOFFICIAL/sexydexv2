@@ -95,7 +95,7 @@ const ChangeProfilePicPage: React.FC<ChangeProfilePicPageProps> = ({ onDismiss }
             {TranslateString(999, 'Sorry! You don’t have any eligible Collectibles in your wallet to use!')}
           </Text>
           <Text as="p" color="textSubtle" mb="24px">
-            {TranslateString(999, 'Make sure you have a APES Collectible in your wallet and try again!')}
+            {TranslateString(999, 'Make sure you have a Waifu Collectible in your wallet and try again!')}
           </Text>
         </>
       )}

@@ -24,7 +24,7 @@ const AprRow: React.FC<AprRowProps> = ({ pool, stakingTokenPrice, isAutoVault = 
   const { targetRef, tooltip, tooltipVisible } = useTooltip(
     TranslateString(
       999,
-      'APY includes compounding, APR doesn’t. This pool’s APES is compounded automatically, so we show APY.',
+      'APY includes compounding, APR doesn’t. This pool’s Waifu is compounded automatically, so we show APY.',
     ),
     'bottom-end',
   )

@@ -20,7 +20,7 @@ const HowToJoin = () => {
       <HowToCard number={1} title={TranslateString(999, 'Get Ready')}>
         <Text fontSize="14px" color="textSubtle">
           {TranslateString(999, 'Set up your')}{' '}
-          <StyledLink href="/profile">{TranslateString(999, 'APES Profile')}</StyledLink>
+          <StyledLink href="/profile">{TranslateString(999, 'Waifu Profile')}</StyledLink>
           {', '}
           {TranslateString(999, 'then register for the competition by clicking the “I WANT TO BATTLE” button above.')}
         </Text>
@@ -29,7 +29,7 @@ const HowToJoin = () => {
         <Text fontSize="14px" color="textSubtle">
           {TranslateString(
             999,
-            'Trade BNB/BUSD, APES/BNB, ETH/BNB and BTCB/BNB during the battle period to raise both your and your team’s score. See the Rules section below for more.',
+            'Trade BNB/BUSD, Waifu/BNB, ETH/BNB and BTCB/BNB during the battle period to raise both your and your team’s score. See the Rules section below for more.',
           )}
         </Text>
       </HowToCard>

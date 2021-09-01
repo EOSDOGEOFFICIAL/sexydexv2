@@ -30,7 +30,7 @@ const Rules = () => {
       <StyledCardWrapper>
         <RulesCard title={TranslateString(999, 'Trade to increase your rank')}>
           <Text textAlign="center" fontSize="14px" color="textSubtle">
-            {TranslateString(999, 'Eligible pairs: BNB/BUSD, APES/BNB, ETH/BNB and BTCB/BNB')}
+            {TranslateString(999, 'Eligible pairs: BNB/BUSD, Waifu/BNB, ETH/BNB and BTCB/BNB')}
           </Text>
         </RulesCard>
         <RulesCard title={TranslateString(999, 'Play as a team')}>

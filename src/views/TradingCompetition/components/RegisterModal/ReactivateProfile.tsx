@@ -20,7 +20,7 @@ const ReactivateProfile: React.FC<CompetitionProps> = ({ onDismiss }) => {
       <Text color="textSubtle">
         {TranslateString(
           999,
-          'It looks like you’ve disabled your account by removing your APES Collectible (NFT) profile picture.',
+          'It looks like you’ve disabled your account by removing your Waifu Collectible (NFT) profile picture.',
         )}
       </Text>
       <Text>

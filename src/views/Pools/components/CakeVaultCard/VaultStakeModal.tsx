@@ -73,7 +73,7 @@ const VaultStakeModal: React.FC<VaultStakeModalProps> = ({
   const handleWithdrawal = async (convertedStakeAmount: BigNumber) => {
     setPendingTx(true)
     const shareStakeToWithdraw = convertCakeToShares(convertedStakeAmount, pricePerFullShare)
-    // trigger withdrawAll function if the withdrawal will leave 0.000000000000200000 APES or less
+    // trigger withdrawAll function if the withdrawal will leave 0.000000000000200000 Waifu or less
     const triggerWithdrawAllThreshold = new BigNumber(200000)
     const sharesRemaining = userInfo.shares.minus(shareStakeToWithdraw.sharesAsBigNumber)
     const isWithdrawingAll = sharesRemaining.lte(triggerWithdrawAllThreshold)
