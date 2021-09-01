@@ -53,7 +53,7 @@ const BountyModal: React.FC<BountyModalProps> = ({
       .on('receipt', () => {
         toastSuccess(
           TranslateString(999, 'Bounty collected!'),
-          TranslateString(999, 'APES bounty has been sent to your wallet.'),
+          TranslateString(999, 'Waifu bounty has been sent to your wallet.'),
         )
         setPendingTx(false)
         onDismiss()
@@ -81,7 +81,7 @@ const BountyModal: React.FC<BountyModalProps> = ({
       <Flex alignItems="flex-start" justifyContent="space-between">
         <Text>{TranslateString(999, "You'll claim")}</Text>
         <Flex flexDirection="column">
-          <Text bold>{cakeCallBountyToDisplay} APES</Text>
+          <Text bold>{cakeCallBountyToDisplay} Waifu</Text>
           <Text fontSize="12px" color="textSubtle">
             ~ {dollarCallBountyToDisplay} USD
           </Text>
@@ -93,7 +93,7 @@ const BountyModal: React.FC<BountyModalProps> = ({
           {TranslateString(999, 'Pool total pending yield')}
         </Text>
         <Text fontSize="14px" color="textSubtle">
-          {totalYieldToDisplay} APES
+          {totalYieldToDisplay} Waifu
         </Text>
       </Flex>
       <Flex alignItems="center" justifyContent="space-between" mb="24px">
