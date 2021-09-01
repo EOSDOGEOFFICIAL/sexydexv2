@@ -87,10 +87,10 @@ const IfoSteps: React.FC<Props> = ({ ifo, walletIfoData }) => {
         return (
           <CardBody>
             <Heading as="h4" color="secondary" mb="16px">
-              Get APES-BNB LP Tokens
+              Get Waifu-BNB LP Tokens
             </Heading>
             <Text color="textSubtle" small>
-              Stake APES and BNB in the liquidity pool to get LP tokens. <br />
+              Stake Waifu and BNB in the liquidity pool to get LP tokens. <br />
               You’ll spend them to buy IFO sale tokens.
             </Text>
             <Button
@@ -123,7 +123,7 @@ const IfoSteps: React.FC<Props> = ({ ifo, walletIfoData }) => {
               Claim your tokens and achievement
             </Heading>
             <Text color="textSubtle" small>
-              After the IFO sales finish, you can claim any IFO tokens that you bought, and any unspent APES-BNB LP
+              After the IFO sales finish, you can claim any IFO tokens that you bought, and any unspent Waifu-BNB LP
               tokens will be returned to your wallet.
             </Text>
           </CardBody>

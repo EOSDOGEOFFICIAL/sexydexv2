@@ -35,7 +35,7 @@ const HowItWorks = () => {
       <Text fontSize="16px">
         {TranslateString(
           426,
-          'Spend APES to buy tickets, contributing to the lottery pot. Win prizes if 2, 3, or 4 of your ticket numbers match the winning numbers and their exact order!',
+          'Spend Waifu to buy tickets, contributing to the lottery pot. Win prizes if 2, 3, or 4 of your ticket numbers match the winning numbers and their exact order!',
         )}
       </Text>
       <StyledLink href="https://docs.pancakeswap.finance/lottery-1">{TranslateString(610, 'Read more')}</StyledLink>

@@ -23,7 +23,7 @@ const FeeSummary: React.FC<FeeSummaryProps> = ({ stakingTokenSymbol, lastDeposit
       <Box>
         {TranslateString(
           999,
-          'Only applies within 3 days of staking. Unstaking after 3 days will not include a fee. Timer resets every time you stake new APES in the pool.',
+          'Only applies within 3 days of staking. Unstaking after 3 days will not include a fee. Timer resets every time you stake new Waifu in the pool.',
         )}
       </Box>
     </Box>,

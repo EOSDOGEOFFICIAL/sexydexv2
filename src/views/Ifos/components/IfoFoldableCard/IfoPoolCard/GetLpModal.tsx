@@ -24,7 +24,7 @@ const GetLpModal: React.FC<Partial<Props>> = ({ currency, onDismiss }) => {
         <Text mb="16px">
           You’ll need{' '}
           <Text as="span" bold>
-            APES-BNB LP
+            Waifu-BNB LP
           </Text>{' '}
           tokens to participate in the IFO!
         </Text>

@@ -29,7 +29,7 @@ const useGetProfileCosts = () => {
           numberCakeToUpdate: new BigNumber(numberCakeToUpdate as string),
         })
       } catch (error) {
-        toastError('Error', 'Could not retrieve APES costs for profile')
+        toastError('Error', 'Could not retrieve Waifu costs for profile')
       }
     }
 

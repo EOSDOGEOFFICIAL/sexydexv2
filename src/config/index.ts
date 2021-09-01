@@ -9,12 +9,12 @@ BigNumber.config({
 export const BSC_BLOCK_TIME = 3
 
 // CAKE_PER_BLOCK details
-// 40 APES is minted per block
-// 18 APES per block is sent to Burn pool (A farm just for burning APES)
-// 10 APES per block goes to APES syrup pool
-// 12 APES per block goes to Yield farms and lottery
+// 40 Waifu is minted per block
+// 18 Waifu per block is sent to Burn pool (A farm just for burning Waifu)
+// 10 Waifu per block goes to Waifu syrup pool
+// 12 Waifu per block goes to Yield farms and lottery
 // CAKE_PER_BLOCK in config/index.ts = 40 as we only change the amount sent to the burn pool which is effectively a farm.
-// APES/Block in components/CakeStats.tsx = 22 (40 - Amount sent to burn pool)
+// Waifu/Block in components/CakeStats.tsx = 22 (40 - Amount sent to burn pool)
 
 export const CAKE_PER_BLOCK = new BigNumber(40)
 export const BLOCKS_PER_YEAR = new BigNumber((60 / BSC_BLOCK_TIME) * 60 * 24 * 365) // 10512000
