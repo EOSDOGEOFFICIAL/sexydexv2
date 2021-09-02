@@ -81,14 +81,14 @@ const FAQ = () => {
               -{' '}
               {TranslateString(
                 999,
-                'In the event of a disagreement concerning the final winning team or rank, ApeFinance will have the final say.',
+                'In the event of a disagreement concerning the final winning team or rank, Wifeswap will have the final say.',
               )}
             </Text>
             <Text fontSize="14px" color="textSubtle">
               -{' '}
               {TranslateString(
                 999,
-                'ApeFinance can and will disqualify any team or specific members that are proven to have taken malicious action or attempt to “cheat” in any way.',
+                'Wifeswap can and will disqualify any team or specific members that are proven to have taken malicious action or attempt to “cheat” in any way.',
               )}
             </Text>
           </FoldableText>
