@@ -45,7 +45,7 @@ const BattleBanner = () => {
         <Image src={AllBunniesImage} alt="all the bunnies" width={1208} height={659} responsive />
       </ImageWrapper>
       <StyledText mb="16px" color="textSubtle" bold>
-        {TranslateString(999, 'April')} 07—14, 2021
+        {TranslateString(999, 'october')} 07—14, 2021
       </StyledText>
       <StyledHeading1Text>{TranslateString(999, 'Easter Battle')}</StyledHeading1Text>
       <StyledHeading2Text background={GOLDGRADIENT} $fill>

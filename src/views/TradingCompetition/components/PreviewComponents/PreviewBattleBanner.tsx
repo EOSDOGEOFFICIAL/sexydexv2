@@ -34,7 +34,7 @@ const BattleBanner = () => {
         {TranslateString(999, '$200,000 in Prizes!')}
       </StyledHeading2Text>
       <StyledHeading size="md" color="inputSecondary" mt="16px">
-        {TranslateString(999, 'Registration starting April 5th')}
+        {TranslateString(999, 'Registration starting october 5th')}
       </StyledHeading>
     </Flex>
   )

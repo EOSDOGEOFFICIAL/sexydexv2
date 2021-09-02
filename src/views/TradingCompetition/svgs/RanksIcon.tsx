@@ -3,7 +3,7 @@ import { Svg, SvgProps } from '../../../components/Pancakeswap/uikit/src'
 
 const Ranks: React.FC<SvgProps> = (props) => {
   return (
-    <img src='./images/team-ranks.svg' alt="" width={175} height={92}/>
+    <img src='./images/apes-round.svg' alt="" width={175} height={92}/>
     // <Svg viewBox="0 0 166 88" {...props}>
     //   <path
     //     fillRule="evenodd"
