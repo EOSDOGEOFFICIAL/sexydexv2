@@ -12,7 +12,7 @@ it("renders correctly", () => {
       left: 0px;
       width: 100%;
       height: 100%;
-      background-color: #ff8800;
+      background-color: #47ffee;
       -webkit-transition: opacity 0.4s;
       transition: opacity 0.4s;
       opacity: 0.6;

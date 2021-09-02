@@ -13,7 +13,7 @@ import { Flex, Skeleton, PocketWatchIcon, Text } from '../../../../components/Pa
 const Wrapper = styled(Flex)`
   width: fit-content;
   height: fit-content;
-  background: linear-gradient(180deg, #7645d9 0%, #ff8800 100%);
+  background: linear-gradient(180deg, #7645d9 0%, #47ffee 100%);
   border: 1px solid #7645d9;
   box-sizing: border-box;
   border-radius: 0px 0px 24px 24px;

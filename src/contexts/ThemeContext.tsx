@@ -19,7 +19,7 @@ const ThemeContextProvider = ({ children }) => {
     })
   }
 
-  const tempDark = { ...dark, tooltip: { ...dark.tooltip, background: "#ff8800" }, colors: { ...dark.colors, primary: "#0056AC", textSubtle: "#ff8800", backgroundAlt: "#000", secondary: "#ff8800", text: "#ff8800", gradients: { ...dark.colors.gradients, bubblegum: 'linear-gradient(139.73deg,#ffffff00 0%,#ffffff00 100%)', cardHeader:'linear-gradient(139.73deg,#ffffff00 0%,#ffffff00 100%)' } }, card: { ...dark.card, background: "#000" } }
+  const tempDark = { ...dark, tooltip: { ...dark.tooltip, background: "#47ffee" }, colors: { ...dark.colors, primary: "#0056AC", textSubtle: "#47ffee", backgroundAlt: "#000", secondary: "#47ffee", text: "#47ffee", gradients: { ...dark.colors.gradients, bubblegum: 'linear-gradient(139.73deg,#ffffff00 0%,#ffffff00 100%)', cardHeader:'linear-gradient(139.73deg,#ffffff00 0%,#ffffff00 100%)' } }, card: { ...dark.card, background: "#000" } }
   console.log(tempDark)
   return (
     <ThemeContext.Provider value={{ isDark, toggleTheme }}>

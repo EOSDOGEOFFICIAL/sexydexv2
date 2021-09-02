@@ -55,7 +55,7 @@ const override = css`
 
 const Spinner: React.FC<SpinnerProps> = ({ size = 128 }) => {
   const [loading, setLoading] = React.useState(true);
-  const [color, setColor] = React.useState("#ff8800");
+  const [color, setColor] = React.useState("#47ffee");
 
   return (
     <Container>

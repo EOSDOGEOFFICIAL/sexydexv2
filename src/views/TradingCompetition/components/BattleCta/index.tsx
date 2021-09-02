@@ -21,7 +21,7 @@ import {
 
 const StyledCard = styled(Card)`
   display: inline-flex;
-  background: linear-gradient(180deg, #7645d9 0%, #ff8800 100%);
+  background: linear-gradient(180deg, #7645d9 0%, #47ffee 100%);
 
   svg {
     margin-bottom: 6px;

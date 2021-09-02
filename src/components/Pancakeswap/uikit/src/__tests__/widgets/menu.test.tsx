@@ -51,7 +51,7 @@ it("renders correctly", () => {
       left: 0px;
       width: 100%;
       height: 100%;
-      background-color: #ff8800;
+      background-color: #47ffee;
       -webkit-transition: opacity 0.4s;
       transition: opacity 0.4s;
       opacity: 0;
@@ -80,7 +80,7 @@ it("renders correctly", () => {
       -webkit-align-self: center;
       -ms-flex-item-align: center;
       align-self: center;
-      fill: #ff8800;
+      fill: #47ffee;
       -webkit-flex-shrink: 0;
       -ms-flex-negative: 0;
       flex-shrink: 0;
@@ -90,7 +90,7 @@ it("renders correctly", () => {
       -webkit-align-self: center;
       -ms-flex-item-align: center;
       align-self: center;
-      fill: #ff8800;
+      fill: #47ffee;
       -webkit-flex-shrink: 0;
       -ms-flex-negative: 0;
       flex-shrink: 0;
@@ -272,7 +272,7 @@ it("renders correctly", () => {
     }
 
     .c4 {
-      color: #ff8800;
+      color: #47ffee;
       padding: 0 8px;
       border-radius: 8px;
     }
