@@ -12,7 +12,7 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'https://swap.pancakeswap.finance/#/swap',
+        href: 'https://wifeswapofficial.site/swap/#/swap',
       },
       {
         label: 'Liquidity',
