@@ -36,7 +36,7 @@ export default {
     97: '',
   },
   pointCenterIfo: {
-    56: '0x3C6919b132462C1FEc572c6300E83191f4F0012a',
+    56: '0x0000000000000000000000000000000000000000',
     97: '',
   },
   bunnySpecial: {
@@ -52,7 +52,7 @@ export default {
     97: '',
   },
   cakeVault: {
-    56: '0xa80240Eb5d7E05d3F250cF000eEc0891d00b51CC',
+    56: '0x0000000000000000000000000000000000000000',
     97: '',
   },
   predictions: {
