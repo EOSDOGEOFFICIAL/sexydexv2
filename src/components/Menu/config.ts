@@ -11,7 +11,7 @@ const config: MenuEntry[] = [
     icon: 'TradeIcon',
     items: [
       {
-        label: 'Exchange',
+        label: 'Swap',
         href: 'https://wifeswapofficial.site/swap/#/swap',
       },
       {
@@ -85,12 +85,12 @@ const config: MenuEntry[] = [
     icon: 'InfoIcon',
     items: [
       {
-        label: 'Overview',
-        href: 'https://pancakeswap.info',
+        label: 'Website',
+        href: 'https://wifeswapofficial.site/',
       },
       {
-        label: 'Tokens',
-        href: 'https://pancakeswap.info/tokens',
+        label: 'Swap',
+        href: 'https://wifeswapofficial.site/swap/#/swap',
       },
       {
         label: 'Pairs',
