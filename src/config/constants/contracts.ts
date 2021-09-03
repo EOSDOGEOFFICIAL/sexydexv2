@@ -13,7 +13,7 @@ export default {
   },
   lotteryNFT: {
     97: '',
-    56: '0x5e74094Cd416f55179DBd0E45b1a8ED030e396A1',
+    56: '0x0000000000000000000000000000000000000000',
   },
   multiCall: {
     56: '0x1ee38d535d541c55c9dae27b12edf090c608e6fb',
