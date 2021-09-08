@@ -16,7 +16,7 @@ export default {
     56: '0x5e74094Cd416f55179DBd0E45b1a8ED030e396A1',
   },
   multiCall: {
-    56: '0x0000000000000000000000000000000000000000',
+    56: '0x96411c166ac9fb5fba7f97602cc54646923eb754',
     97: '',
   },
   pancakeProfile: {
